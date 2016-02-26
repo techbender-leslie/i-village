@@ -1,0 +1,50 @@
+<div class="col-md-10 col-md-offset-1">
+  <h1> <%= link_to conversations_path, class: "btn btn-small btn-success" do %>
+      <i class="glyphicon glyphicon-hand-left"></i>
+    <% end %>
+  </h1>
+
+  <br>
+  <h2> <%= @conversation.title %> </h2>
+  <h4><b><%= @conversation.category.cat_name.upcase %></b></h4>
+  <p><%= time_ago_in_words(@conversation.created_at).capitalize %> ago</p>
+  <br>
+  <p class="lead"><%= @conversation.content %></p>
+  
+  <div>
+  <%= link_to 'Edit', edit_conversation_path(@conversation) %> |
+  <%= link_to 'Delete', @conversation, data: { confirm: 'Are you sure?' }, method: :delete %>
+  </div>
+  <br>
+</div>
+
+
+<div class="row" id="burrito">
+  <div class="col-md-6 col-md-offset-1">
+  <%= image_tag(@conversation.picture, class: "img-responsive thumbnail") if @conversation.picture.present? %>
+  </div>
+
+  <div class="col-md-4">
+    <% @conversation.comments.each do |comment| %>
+      <strong><h4><%= comment.user_name %>: </h4></strong>
+      <p class="lead"><i>"<%= comment.body %>" </i> &nbsp; </p>
+      <%= link_to "Delete", conversation_comment_path(@conversation.id, comment.id), :confirm => "Are you sure?", :method => :delete %>
+    <% end %>
+    <hr>
+  </div>
+  <br>
+</div>
+
+<div class="col-md-6 col-md-offset-1" id="comment-space">
+  <%= render 'comments/form' %>
+  <br>
+</div>
+
+
+
+
+
+
+
+
+

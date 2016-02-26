@@ -1,0 +1,143 @@
+@import "bootstrap-sprockets"; 
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+
+body { 
+  padding-top: 10px;
+ }
+
+ html {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer { margin-top: 50px; }
+table, td, th { vertical-align: middle; border: none; }
+th { border-bottom: 1px solid #DDD; }
+
+input.btn.btn-danger {
+  font-size: 18px;
+  margin-left: -15px;
+  margin-top: 10px;
+}
+
+input#conversation_picture {
+  font-size: 18px;
+}
+
+.size-me {
+  height: 250px;
+  width: auto;
+}
+
+#cat-list h5 span {
+  background-color: slategray;
+  color: white;
+}
+
+#cat-list p.lead {
+  margin-bottom: 5px;
+  margin-top: 10px;
+  line-height: 1.15;
+}
+
+#cat-list img {
+  max-width: 500px;
+  max-height: 300px;
+}
+
+
+#burrito img {
+  max-width: 625px;
+  max-height: 800px;
+}
+
+#burrito {
+  left-margin: 35px;
+}
+
+#comment-space {
+  padding-left: 0;
+  width: 630px;
+}
+#cat-list {
+  margin-top: 40px;
+}
+
+#cat-but {
+  margin-top: 50px;
+}
+
+#cat-but .btn a {
+  text-decoration: none;
+  color: white;
+}
+
+#cat-but .btn {
+  background: darkorange;
+}
+
+.main-page {
+  margin-left: 80px;
+}
+
+
+#center-feed {
+  margin-left: 15px;
+  padding: 10px;
+}
+
+#left-box {
+  background: aliceblue;
+  margin-left: 10px;
+}
+
+#left-box p.lead {
+  margin-bottom: 0;
+  margin-top: -5px;
+}
+
+#left-box hr {
+  margin: 5px;
+}
+
+#right-side {
+  /*margin-right: -30px;*/
+}
+
+#banner-head {
+  background: white;
+}
+
+#banner-head {
+  margin-top: 20px;
+  background: yellowgreen;
+  color: white;
+}
+
+#banner-head h2 {
+  padding-top: 15px;
+}
+
+#banner-head .btn {
+  margin-top: 15px;
+  background: greenyellow;
+  border-radius: 40px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+#ivillage {
+  text-shadow: 2px 2px 8px darkorange;
+  font-size: 88px;
+  font-family: 'Pacifico', cursive;
+}
+
+.smaller {
+  font-size: 32px;
+  text-shadow: 2px 2px 8px darkorange;
+}
+

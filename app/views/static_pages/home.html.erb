@@ -1,0 +1,41 @@
+<br>
+<h1><center><strong>Welcome to i Village for:</strong> 1130 3rd Ave. Oakland, CA</center></h1>
+<br>
+<br> 
+
+<div class="main-page">
+
+  <div class="col-md-3" id="left-box">
+    <h2><u>My neighbors</u></h2>
+    <br>
+    <% @users.each do |user| %>
+    <p class="lead"><%= link_to user.name, user %></p>
+    <p><strong>Apartment: <%= user.apartment %></strong></p>
+    <hr>
+    <% end %>
+  </div>
+
+  <div class="col-md-4" id="center-feed">
+    <%= render 'google_map' %>
+  </div>
+
+<div class="col-md-4" id="right-side">
+  <% @conversations.in_groups_of(1) do |group| %>
+    <% group.compact.each do |conversation| %>
+      <h3><%= link_to conversation.title, conversation%></h3>
+      <p><%= time_ago_in_words(conversation.created_at).capitalize %> ago</p>
+      
+      <p class= "lead"><%= truncate(conversation.content, :length => 150, separator: ' ', omission: ' ... (more)') %></p>
+      <hr>
+    <% end %>
+  <% end %>
+</div>
+
+</div>
+
+
+
+
+
+
+

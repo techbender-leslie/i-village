@@ -1,0 +1,17 @@
+<div class="well well-lg">
+
+<h1>Sign Up - Create a New Account</h1>
+<br>
+  <%= simple_form_for(@user, html: { class: 'form-horizontal' }) do |f| %>
+
+      <%= f.input :name %>
+      <%= f.input :email %>
+      <%= f.input :password %>
+      <%= f.input :password_confirmation %>
+      <%= f.input :phone %>
+      <%= f.input :apartment %>
+      <%= f.input :bio %>
+
+      <%= f.submit "Submit".html_safe, class: "btn btn-lg btn-danger"%>
+  <% end %>
+</div>

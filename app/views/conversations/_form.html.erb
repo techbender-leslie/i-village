@@ -1,0 +1,13 @@
+<div class= "panel-body">
+  <%= simple_form_for(@conversation, html: { class: 'form-horizontal' }) do |f| %>
+  
+    <%= f.input :title %>
+    <%= f.association :category, :collection => Category.all.map{ |c| [c.cat_name.upcase, c.id]} %>
+    <%= f.input :content  %>
+    <%= f.input :picture %>
+    
+
+    <%= f.submit "Submit".html_safe, class: "btn btn-lg btn-danger"%>
+  
+  <% end %>
+</div>

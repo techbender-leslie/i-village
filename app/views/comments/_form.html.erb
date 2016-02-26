@@ -1,0 +1,12 @@
+<div class="well well-sm">
+  <h3>  Leave a Comment: </h3>
+    <%= simple_form_for([@conversation, @conversation.comments.build]) do |f| %>
+      <%= f.input :user_name %>
+      <%= f.input :body %>
+      <%= f.hidden_field :conversation_id %>
+      <%= f.submit "Submit".html_safe, class: "btn btn-warning"%>
+    <% end %>
+    <br>
+</div>
+
+

@@ -1,0 +1,30 @@
+
+<h1><center>Most Recent Conversations from 1130 3rd Ave. Oakland, CA</center></h1>
+
+<div class= "col-md-3 col-md-offset-1" id="cat-but">
+  <% @categories.each do |category| %>
+    <button type="button" class="btn btn-warning btn-block">
+      <h2><%= link_to category.cat_name.capitalize %></h2>
+      </button>
+      <br>
+  <% end %>
+</div>
+
+<div class='col-xs-6'>
+<div class="categorytitles">
+  <%= link_to "Classified", conversations_path(type: 8) %>
+
+
+<div class="col-md-6 col-md-offset-1" id="cat-list">
+<hr>
+<% @conversations.in_groups_of(1) do |group| %>
+    <% group.compact.each do |conversation| %>
+        <h2><%= link_to conversation.title.capitalize, conversation %></h2>
+        <h5><%= conversation.category.cat_name.upcase %></h5>
+        <p><%= time_ago_in_words(conversation.created_at).capitalize %> ago</p>
+        <%=image_tag conversation.picture if conversation.picture.present?%>
+        <p class= "lead"><%= truncate(conversation.content, :length => 150, separator: ' ', omission: ' ... (more)') %></p>
+        <hr>
+    <% end %>
+<% end %>
+</div>
