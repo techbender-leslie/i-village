@@ -1,7 +1,6 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<b>This is the readme file for my app: iVillage - the 2nd solo project in General Assembly's Web Developement Immersive 26 program.</b>
 
 Things you may want to cover:
 
