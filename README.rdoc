@@ -2,9 +2,13 @@
 
 <b>This is the readme file for my app: iVillage - the 2nd solo project in General Assembly's Web Developement Immersive 26 program.</b>
 
-Things you may want to cover:
 
-* Ruby version
+* Log in: charolette@yahoo.com
+* Passowrd: password
+
+
+
+
 
 * System dependencies
 
