@@ -1,2 +1,32 @@
-<h1>Users#show</h1>
-<p>Find me in app/views/users/show.html.erb</p>
+<h1><center>Meet your NEIGHBOR at: 1130 3rd Ave. Oakland, CA</center></h1>
+<br>
+
+<div id="user-main">
+
+<div class="col-md-3" id="left-box">
+  <h2><u>My neighbors</u></h2>
+  <br>
+  <% @users.each do |user| %>
+  <p class="lead"><%= link_to user.name, user %></p>
+  <p><strong>Apartment: <%= user.apartment %></strong></p>
+  <hr>
+  <% end %>
+</div>
+
+<div class="col-md-8" id="user-profile-box">
+  <div class="well well-lg">
+    <div class="row">
+      <%= image_tag("https://robohash.org/my-own-slug.png?size=200x200", class: 'img-responsive') %>
+    </div>
+      <h2><b><%= @user.name %></b></h2>
+      <h3>Apartment: #<%= @user.apartment %></h3>
+      <h4>Email: <%= @user.email %></h4>
+      <h4>Phone: <%= @user.phone %></h4>
+      <br>
+      <p class="lead">Bio: <%= @user.bio %></p>
+    </div>
+  </div>
+</div>
+
+
+

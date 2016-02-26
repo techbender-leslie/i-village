@@ -2,18 +2,35 @@
 <h1><center>Most Recent Conversations from 1130 3rd Ave. Oakland, CA</center></h1>
 
 <div class= "col-md-3 col-md-offset-1" id="cat-but">
-  <% @categories.each do |category| %>
-    <button type="button" class="btn btn-warning btn-block">
-      <h2><%= link_to category.cat_name.capitalize %></h2>
-      </button>
-      <br>
-  <% end %>
+
+<button type="button", class="btn btn-warning btn-block">
+<h2><%= link_to "ALL", conversations_path %></h2>
+</button>
+
+<button type="button", class="btn btn-warning btn-block">
+<h2><%= link_to "Recommend", conversations_path(type: 7) %></h2>
+</button>
+
+<button type="button", class="btn btn-warning btn-block">
+<h2><%= link_to "Classified", conversations_path(type: 8) %></h2>
+</button>
+
+<button type="button", class="btn btn-warning btn-block">
+<h2><%= link_to "Announcement", conversations_path(type: 9) %></h2></button>
+
+<button type="button", class="btn btn-warning btn-block">
+<h2><%= link_to "Safety", conversations_path(type: 10) %></h2>
+</button>
+
+<button type="button", class="btn btn-warning btn-block">
+<h2><%= link_to "Event", conversations_path(type: 11) %></h2>
+</button>
+
+<button type="button", class="btn btn-warning btn-block">
+<h2><%= link_to "Other", conversations_path(type: 12) %></h2>
+</button>
+
 </div>
-
-<div class='col-xs-6'>
-<div class="categorytitles">
-  <%= link_to "Classified", conversations_path(type: 8) %>
-
 
 <div class="col-md-6 col-md-offset-1" id="cat-list">
 <hr>

@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_filter :authorize
+  #before_filter :authorize
   #before_action :require_login, only: :new, :create
 
   def index
@@ -23,12 +23,14 @@ class UsersController < ApplicationController
   end
 
   def show
-    @user = current_user
+    #@user = current_user
+    @user = User.find(params[:id])
+    @users = User.all
   end
 
   private
 
   def user_params
-    params.require(:user).permit(:name, :email, :phone, :apartment, :bio, :password, :password_confirmation)
+    params.require(:user).permit(:name, :email, :phone, :apartment, :bio, :picture,:password, :password_confirmation)
   end
 end
