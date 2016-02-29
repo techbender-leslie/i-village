@@ -22,7 +22,3 @@ Passowrd: password
 * Additional gems: Carrierwave for picture uploading, faker to create 40 fake neighbors and font-awesome for great icons
 
 </b>
-
-
-
-<tt>rake doc:app</tt>.
