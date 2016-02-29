@@ -15,10 +15,10 @@ Passowrd: password
 
 * Database creation with PostgreSQL
 
-* Bootstrap and Simple Form front end
+* Bootstrap and Simple_Form front end
 
 * 4 models: Users - Conversations - Categories - Comments
 
-* Additional gems: Carrierwave for picture uploading, faker to create 40 fake neighbors and font-awesome for great icons
+* Additional gems: Carrierwave for picture uploading, Faker to create 40 fake neighbors and font-awesome for great icons
 
 </b>
