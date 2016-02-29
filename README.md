@@ -1,6 +1,6 @@
 == README
 
-<b>This is the readme file for my app: iVillage - the 2nd solo project in General Assembly's Web Developement Immersive 26 program.</b>
+<b>This is the readme file for my app: iVillage - the 2nd solo project in General Assembly's Web Developement Immersive 26 program</b>
 
 
 Log in: charolette@yahoo.com
