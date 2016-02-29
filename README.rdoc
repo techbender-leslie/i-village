@@ -8,28 +8,20 @@ Log in: charolette@yahoo.com
 Passowrd: password
 
 
+* Full Stack Rails
+
+* BCrypt log in/log out/sessions/make new user
+
+* Database creation with PostgreSQL
+
+* Bootstrap and Simple Form front end
+
+* 4 models: Users - Conversations - Categories - Comments
+
+* Additional gems: Carrierwave for picture uploading, faker to create 40 fake neighbors and font-awesome for great icons
 
 
 
 
 
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
