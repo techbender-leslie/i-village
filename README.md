@@ -6,7 +6,7 @@ Log in: charolette@yahoo.com
 
 Passowrd: password
 <br>
-
+<br>
 <b>
 
 * Full Stack Rails
