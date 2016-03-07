@@ -34,6 +34,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
  gem 'faker'
  gem 'simple_form'
  gem 'font-awesome-sass'
+ gem 'figaro'
+ gem 'fog'
 
  # gem 'sunspot'
  # gem 'pg_search'

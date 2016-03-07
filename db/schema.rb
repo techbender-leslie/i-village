@@ -39,6 +39,7 @@ ActiveRecord::Schema.define(version: 20160226083124) do
     t.integer  "category_id"
     t.integer  "comment_id"
   end
+  # to seed with images put into public/images
 
   add_index "conversations", ["category_id"], name: "index_conversations_on_category_id", using: :btree
   add_index "conversations", ["comment_id"], name: "index_conversations_on_comment_id", using: :btree
