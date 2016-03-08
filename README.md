@@ -1,11 +1,12 @@
 
-## The iVillage App (2016) - the 2nd solo project in General Assembly's Web Developement Immersive program
-#### _A social network to exchange ideas, goods, notices, recommendations, and community spirit with your immediate neighbors_ ####
+# The iVillage App (2016) #
+***The hyper-local social network to exchange ideas, goods, notices, recommendations, and community spirit with your immediate neighbors. Turning strangers into neighbors and neighbors into friends.***
+#### The 2nd solo project in General Assembly's Web Developement Immersive program ####
 
 
-*Log in: prince@gmail.com*
+*Test Log in: prince@gmail.com*
 <br>
-*Password: password*
+*Test Password: password*
 
 Visit live site on Heroku at: https://sleepy-eyrie-15720.herokuapp.com
 
@@ -13,7 +14,7 @@ Visit live site on Heroku at: https://sleepy-eyrie-15720.herokuapp.com
 ####
 * Full Stack Rails MVC
 * BCrypt and Sessions for:
-  * Login an Logout
+  * Login and Logout
   * New User
   * Authorization
 * Database creation with PostgreSQL
@@ -24,7 +25,7 @@ Visit live site on Heroku at: https://sleepy-eyrie-15720.herokuapp.com
 
 **4 models:**
 * Users (Neighbors) - Available as index and individual show profile pages, sorted by apartment number
-* Conversations - Available as index and sortable by category, also each available as show page, comment enabled
+* Conversations - Available as index and sortable by category, also each available as show page, comment enabled and timestamped
 * Comments - Created and appended on conversation show page
 * Categories - 6 categories to help organize conversation topics
 
