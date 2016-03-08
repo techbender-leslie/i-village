@@ -33,5 +33,5 @@ Visit live site on Heroku at: https://sleepy-eyrie-15720.herokuapp.com
 * Categories - 6 categories to help organize conversation topics
 
 #### Inspiration:####
-<blockquote class="imgur-embed-pub" lang="en" data-id="XdRcKkh"><a href="//imgur.com/XdRcKkh">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+[img]http://i.imgur.com/XdRcKkh.jpg[/img]
 
