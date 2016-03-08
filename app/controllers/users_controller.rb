@@ -3,7 +3,8 @@ class UsersController < ApplicationController
   #before_action :require_login, only: :new, :create
 
   def index
-    @users = User.all
+    # @users = User.all
+    @users = User.order("apartment ASC")
     @conversations = Conversation.order("created_at DESC")
   end
 
