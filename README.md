@@ -32,5 +32,6 @@ Visit live site on Heroku at: https://sleepy-eyrie-15720.herokuapp.com
 * Comments - Created and appended on conversation show page
 * Categories - 6 categories to help organize conversation topics
 
-#### Inspiration was from a story in the Wall Street Journal 2015, about an Italian street that came together in a sense of community:####
+
+#### Inspiration was from a story in the Wall Street Journal 2015, about Via Fondazza, a street in Italy, where neighbors came together online and off in a sense of community:####
 ![picture alt](http://i.imgur.com/XdRcKkh.jpg "Via Fondazza")
