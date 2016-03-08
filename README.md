@@ -4,12 +4,12 @@
 
 
 
-**The 2nd solo project in General Assembly's Web Developement Immersive program**
+The 2nd solo project in General Assembly's Web Developement Immersive program
 
 
-*Test Log in: prince@gmail.com*
+**Test Log in: prince@gmail.com**
 <br>
-*Test Password: password*
+**Test Password: password**
 
 Visit live site on Heroku at: https://sleepy-eyrie-15720.herokuapp.com
 
