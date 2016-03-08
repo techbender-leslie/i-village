@@ -1,7 +1,7 @@
 
 # The iVillage App (2016) #
 ***The hyper-local social network to exchange ideas, goods, notices, recommendations, and community spirit with your immediate neighbors. Turning strangers into neighbors and neighbors into friends.***
-#### The 2nd solo project in General Assembly's Web Developement Immersive program ####
+#### My 2nd solo project in General Assembly's Web Developement Immersive 26 Program in SF ####
 
 
 *Test Log in: prince@gmail.com*
@@ -29,4 +29,5 @@ Visit live site on Heroku at: https://sleepy-eyrie-15720.herokuapp.com
 * Comments - Created and appended on conversation show page
 * Categories - 6 categories to help organize conversation topics
 
+#### Inspiration:####
 
