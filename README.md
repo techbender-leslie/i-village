@@ -33,5 +33,4 @@ Visit live site on Heroku at: https://sleepy-eyrie-15720.herokuapp.com
 * Categories - 6 categories to help organize conversation topics
 
 #### Inspiration:####
-[img]http://i.imgur.com/XdRcKkh.jpg[/img]
-
+![picture alt](http://i.imgur.com/XdRcKkh.jpg "Via Fondazza")
