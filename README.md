@@ -1,7 +1,9 @@
 
 # The iVillage App (2016) #
 ***The hyper-local social network to exchange ideas, goods, notices, recommendations, and community spirit with your immediate neighbors. Turning strangers into neighbors and neighbors into friends.***
-<br>
+
+
+
 **The 2nd solo project in General Assembly's Web Developement Immersive program**
 
 
