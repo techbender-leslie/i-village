@@ -4,8 +4,6 @@
 
 
 
-The 2nd solo project in General Assembly's Web Developement Immersive program
-
 
 **Test Log in: prince@gmail.com**
 <br>
@@ -15,6 +13,8 @@ Visit live site on Heroku at: https://sleepy-eyrie-15720.herokuapp.com
 
 ## Project features: ##
 ####
+The 2nd solo project in General Assembly's Web Developement Immersive program
+
 * Full Stack Rails MVC
 * BCrypt and Sessions for:
   * Login and Logout
