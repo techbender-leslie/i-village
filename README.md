@@ -26,8 +26,6 @@ Visit live site on Heroku at: https://sleepy-eyrie-15720.herokuapp.com
 * Additional gems: fog and figaro for securing AWS storage, and faker to create 40 new neighbors 
 * Bootstrap and Simple_Form used to style the front end
 * 
-![picture alt](http://i.imgur.com/S1Gu5TK.png "Home page screenshot") 
-![picture alt](http://i.imgur.com/7VOCRoT.png "Conversation screenshot")
 
 
 **4 models:**
