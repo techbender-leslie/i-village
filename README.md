@@ -38,4 +38,4 @@ Visit live site on Heroku at: https://sleepy-eyrie-15720.herokuapp.com
 
 
 #### Inspiration was from a story in the Wall Street Journal 2015, about Via Fondazza, a street in Italy, where neighbors came together online and off in a sense of community:####
-![picture alt](http://i.imgur.com/XdRcKkh.jpg "Via Fondazza")
+<center> ![picture alt](http://i.imgur.com/XdRcKkh.jpg "Via Fondazza") </center>
