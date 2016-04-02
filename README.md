@@ -25,8 +25,10 @@ Visit live site on Heroku at: https://sleepy-eyrie-15720.herokuapp.com
 * Image uploading using Carrierwave + AWS
 * Additional gems: fog and figaro for securing AWS storage, and faker to create 40 new neighbors 
 * Bootstrap and Simple_Form used to style the front end
-* 
+
+
 ![picture alt](http://i.imgur.com/jUpLvd9.png "iVillage Screenshots")
+
 
 **4 models:**
 * Users (Neighbors) - Available as index and individual show profile pages, sorted by apartment number
