@@ -37,5 +37,7 @@ The 2nd solo project in General Assembly's Web Developement Immersive program
 * Categories - 6 categories to help organize conversation topics
 
 
+
 #### Inspiration was from a story in the Wall Street Journal 2015, about Via Fondazza, a street in Italy, where neighbors came together online and off in a sense of community:####
-<center> ![picture alt](http://i.imgur.com/XdRcKkh.jpg "Via Fondazza") </center>
+
+![picture alt](http://i.imgur.com/XdRcKkh.jpg "Via Fondazza")
